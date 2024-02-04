@@ -40,9 +40,10 @@ ul {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   flex-basis: 50%;
   text-align: center;
-  padding: 60px 50px;
+  padding: 20px 30px;
   border-radius: 20px;
   color: white;
+  margin-right: 10px;
 }
 .container .result h2 {
   font-weight: normal;
@@ -68,17 +69,16 @@ ul {
   font-weight: bold;
 }
 .container .result .num p {
-  color: var(--Pale-blue);
+  color: #8f85f8;
 }
 .container .result h3 {
-  margin: 20px 0;
-  font-size: 25px;
+  font-size: 28px;
 }
 .container .result .para {
   color: var(--Light-lavender);
   width: 264px;
   font-size: 18px;
-  margin: 30px auto;
+  margin: 28px auto;
 }
 
 .container .summary {
@@ -90,7 +90,7 @@ ul {
 
 .container .summary .sum {
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: var(--Dark-gray-blue);
 }
@@ -98,7 +98,7 @@ ul {
 .container .summary ul {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .container .summary li {
@@ -108,6 +108,9 @@ ul {
   width: 100%;
   padding: 11px;
   border-radius: 10px;
+}
+.container .summary li h2 {
+  font-size: 20px;
 }
 
 .container .summary .Reaction {
@@ -142,8 +145,17 @@ ul {
   align-items: center;
 }
 
+.container .summary .prog span {
+  color: var(--Dark-gray-blue);
+  font-weight: 900;
+  margin-right: 7px;
+}
+.container .summary .prog p {
+  color: #9d97a1;
+  font-weight: 900;
+}
+
 .container .summary button {
-  margin: 20px auto;
   width: 100%;
   padding: 16px;
   border-radius: 30px;
@@ -151,14 +163,14 @@ ul {
   outline: none;
   font-size: 20px;
   color: white;
-  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  margin-top: 41px;
+  background-color: var(--Dark-gray-blue);
+
+  margin-top: 40px;
   cursor: pointer;
-  transition: 0.1s ease;
+  transition: 0.3s ease;
 }
 .container .summary button:hover {
-  background-image: none;
-  background-color: var(--Dark-gray-blue);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 @media (max-width: 778px) {
