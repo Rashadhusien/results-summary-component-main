@@ -166,7 +166,6 @@ ul {
 
   margin-top: 40px;
   cursor: pointer;
-  transition: 0.3s ease;
 }
 .container .summary button:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
